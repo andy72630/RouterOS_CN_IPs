@@ -11,6 +11,7 @@ A GitHub Action updates the list automatically.
 ## MikroTik Usage
 
 /tool fetch url="https://raw.githubusercontent.com/andy72630/RouterOS_CN_IPs/main/dist/cn_ip_cidr.rsc" dst-path=cn.rsc
+
 /import file-name=cn.rsc
 
 ## Source
