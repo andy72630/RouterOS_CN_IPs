@@ -25,12 +25,12 @@ OUT_FILE="$WORK_DIR/dist/cn_ip_cidr.rsc"
 
 cat > "$OUT_FILE" << 'EOF'
 /log info "Import cn ipv4 cidr list..."
-/ip firewall address-list remove [/ip firewall address-list find list=cn_ip_cidr]
+/ip firewall address-list remove [/ip firewall address-list find list=CN]
 /ip firewall address-list
 EOF
 
 # Skip empty lines and comments that start with '#'
-awk 'NF && $1 !~ /^#/ { printf(":do {add address=%s list=cn_ip_cidr} on-error={}\n", $1) }' \
+awk 'NF && $1 !~ /^#/ { printf(":do {add address=%s list=CN} on-error={}\n", $1) }' \
   "$TMP_FILE" >> "$OUT_FILE"
 
 echo "[generator] generated $OUT_FILE"
