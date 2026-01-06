@@ -5959,7 +5959,13 @@
 :do {add address=123.254.96.0/22 list=CN} on-error={}
 :do {add address=123.254.100.0/22 list=CN} on-error={}
 :do {add address=124.6.64.0/18 list=CN} on-error={}
-:do {add address=124.14.0.0/18 list=CN} on-error={}
+:do {add address=124.14.0.0/20 list=CN} on-error={}
+:do {add address=124.14.16.0/21 list=CN} on-error={}
+:do {add address=124.14.24.0/21 list=CN} on-error={}
+:do {add address=124.14.32.0/20 list=CN} on-error={}
+:do {add address=124.14.48.0/22 list=CN} on-error={}
+:do {add address=124.14.52.0/22 list=CN} on-error={}
+:do {add address=124.14.56.0/21 list=CN} on-error={}
 :do {add address=124.14.64.0/18 list=CN} on-error={}
 :do {add address=124.14.128.0/17 list=CN} on-error={}
 :do {add address=124.15.0.0/16 list=CN} on-error={}
