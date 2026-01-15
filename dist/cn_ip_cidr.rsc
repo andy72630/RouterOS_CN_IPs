@@ -6225,6 +6225,7 @@
 :do {add address=150.242.248.0/22 list=CN} on-error={}
 :do {add address=150.248.0.0/16 list=CN} on-error={}
 :do {add address=150.255.0.0/16 list=CN} on-error={}
+:do {add address=151.158.14.0/23 list=CN} on-error={}
 :do {add address=152.104.128.0/17 list=CN} on-error={}
 :do {add address=152.136.0.0/16 list=CN} on-error={}
 :do {add address=153.0.0.0/16 list=CN} on-error={}
