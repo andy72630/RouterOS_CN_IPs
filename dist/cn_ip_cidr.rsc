@@ -1733,6 +1733,12 @@
 :do {add address=103.90.192.0/22 list=CN} on-error={}
 :do {add address=103.91.36.0/22 list=CN} on-error={}
 :do {add address=103.91.40.0/22 list=CN} on-error={}
+:do {add address=103.91.106.32/27 list=CN} on-error={}
+:do {add address=103.91.106.64/27 list=CN} on-error={}
+:do {add address=103.91.106.128/25 list=CN} on-error={}
+:do {add address=103.91.107.0/27 list=CN} on-error={}
+:do {add address=103.91.107.64/27 list=CN} on-error={}
+:do {add address=103.91.107.128/25 list=CN} on-error={}
 :do {add address=103.91.108.0/22 list=CN} on-error={}
 :do {add address=103.91.112.0/23 list=CN} on-error={}
 :do {add address=103.91.138.0/23 list=CN} on-error={}
